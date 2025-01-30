@@ -7,6 +7,9 @@ export default defineConfig({
   base: '/',
   markdown: {
     math: true,
+    toc: {
+      level: [1, 2, 3, 4, 5], // 默认显示 h2 和 h3
+    },
     image: {
       lazyLoading: true // 为所有图片启用懒加载。
     }
@@ -14,7 +17,8 @@ export default defineConfig({
   themeConfig: {
     siteTitle: '福轩的不学习小屋',
     outline: {
-      level: [1, 2, 3, 4, 5], // 显示二级、三级、四级、五级标题
+      level: [1, 2, 3, 4, 5], // 显示二级、三级、四级、五级标题...
+      label: '目录' // 自定义目录标题
     },
     nav: [
       { text: '回到首页', link: '/' },
