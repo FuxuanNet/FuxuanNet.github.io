@@ -5,7 +5,7 @@ import { console } from 'node:inspector'
 // 文件根目录
 const DIR_PATH = path.resolve('docs')
 // 白名单,过滤不是文章的文件和文件夹
-const WHITE_LIST = ['index.md', '.vitepress', 'node_modules', '.idea', 'assets', 'images_wl', 'images_wljz', 'static', 'static1', 'static2', 'static3']
+const WHITE_LIST = ['index.md', '.vitepress', 'node_modules', '.idea', 'assets', 'images_wl', 'images_wljz','components', 'static', 'static1', 'static2', 'static3']
 
 
 // 判断是否是文件夹

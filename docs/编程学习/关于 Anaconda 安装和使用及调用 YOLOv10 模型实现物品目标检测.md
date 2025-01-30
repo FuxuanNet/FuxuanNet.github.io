@@ -1,5 +1,5 @@
 ---
-title: Anaconda 安装和使用及调用 YOLOv10 模型实现物品目标检测
+title: 关于 Anaconda 安装和使用及调用 YOLOv10 模型实现物品目标检测
 date: 2024-10-22
 details: 关于 Anaconda 的环境配置，以及使用它来运行一个 Python 代码。不过官网模型的下载步骤已更新，与本文不同，本文调用 YOLOv10 的教程已经过时，请读者参考官网的说明文档进行配置。
 showInHome: true
