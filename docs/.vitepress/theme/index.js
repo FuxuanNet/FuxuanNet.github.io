@@ -6,6 +6,7 @@ import 'element-plus/theme-chalk/dark/css-vars.css'
 import ElementPlus from 'element-plus';
 import { useData } from 'vitepress'
 import Home from './pages/Home.vue'
+import Path from './pages/Path.vue'
 import Posts from './components/PostsMenu.vue'
 import Physics from './components/PhysicsMenu.vue'
 import ArticleList from './components/ArticleList.vue'
@@ -23,6 +24,8 @@ export default {
     // 如果 frontmatter.layout 是 'home1'，则使用 Home.vue
     if (frontmatter.value.layout === 'home') {
       return h(Home)
+    } else if (frontmatter.value.layout === 'LearningPath') {
+      return h(Path)
     }
 
     // 否则，使用默认布局
@@ -38,5 +41,5 @@ export default {
     app.component('CustomMeta', CustomMeta)
     app.use(ElementPlus);
 
-  } 
+  }
 }
