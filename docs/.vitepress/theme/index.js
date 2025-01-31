@@ -13,6 +13,7 @@ import ArticleList from './components/ArticleList.vue'
 import NavBar from './components/NavBar.vue'
 import CodeMenu from './components/CodeMenu.vue';
 import CustomMeta from './components/CustomMeta.vue';
+import LearningPathSteps from './components/LearningPathSteps.vue';
 
 import './style.css'
 
@@ -39,6 +40,7 @@ export default {
     app.component('NavBar', NavBar)
     app.component('CodeMenu', CodeMenu)
     app.component('CustomMeta', CustomMeta)
+    app.component('LearningPathSteps', LearningPathSteps)
     app.use(ElementPlus);
 
   }
