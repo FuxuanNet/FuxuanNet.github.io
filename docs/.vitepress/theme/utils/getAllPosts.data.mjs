@@ -7,6 +7,7 @@ export default createContentLoader([
     '/数据结构/**/*.md',
     '/编程学习/**/*.md',
     '/电路基础/**/*.md',
+    '/深度学习/**/*.md'
 ], {
     includeSrc: false,
     render: false,
