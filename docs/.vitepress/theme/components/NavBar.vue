@@ -94,8 +94,8 @@ const toggleDark = () => {
 }
 
 .nav-title {
-    font-size: 1.2rem;
-    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
     font-weight: 500;
     color: #fff;
     /* color: var(--vp-c-text-1); */
@@ -104,14 +104,14 @@ const toggleDark = () => {
 .desktop-nav {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.1rem;
 }
 
 .nav-link {
     color: #fff;
     /* color: var(--vp-c-text-1); */
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 14px;
     transition: color 0.2s;
 }
 

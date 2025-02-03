@@ -26,7 +26,6 @@ export default defineConfig({
       { text: '线性代数', link: '/线性代数/' },
       { text: '深度学习', link: '/深度学习/' },
       { text: '大学物理', link: '/大学物理/' },
-      { text: '电路基础', link: '/电路基础/' },
     ],
     sidebar: {
       '/编程学习': set_sidebar('/编程学习/'),
