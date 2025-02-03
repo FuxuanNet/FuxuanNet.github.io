@@ -23,12 +23,14 @@ export default defineConfig({
     nav: [
       { text: '回到首页', link: '/' },
       { text: '编程学习', link: '/编程学习/' },
+      { text: '线性代数', link: '/线性代数/' },
       { text: '深度学习', link: '/深度学习/' },
       { text: '大学物理', link: '/大学物理/' },
       { text: '电路基础', link: '/电路基础/' },
     ],
     sidebar: {
       '/编程学习': set_sidebar('/编程学习/'),
+      '/线性代数': set_sidebar('/线性代数/'),
       '/深度学习': set_sidebar('/深度学习/'),
       '/大学物理': set_sidebar('/大学物理/'),
       '/电路基础': set_sidebar('/电路基础/'),

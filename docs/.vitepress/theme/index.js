@@ -14,6 +14,7 @@ import NavBar from './components/NavBar.vue'
 import CodeMenu from './components/CodeMenu.vue';
 import CustomMeta from './components/CustomMeta.vue';
 import DeepMenu from './components/DeepMenu.vue';
+import MatrixMenu from './components/MatrixMenu.vue';
 import LearningPathSteps from './components/LearningPathSteps.vue';
 
 import './style.css'
@@ -41,6 +42,7 @@ export default {
     app.component('NavBar', NavBar)
     app.component('CodeMenu', CodeMenu)
     app.component('DeepMenu', DeepMenu)
+    app.component('MatrixMenu', MatrixMenu)
     app.component('CustomMeta', CustomMeta)
     app.component('LearningPathSteps', LearningPathSteps)
     app.use(ElementPlus);
