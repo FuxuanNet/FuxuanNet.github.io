@@ -48,7 +48,7 @@ onUnmounted(() => {
 
         <!-- 页脚 -->
         <footer class="footer">
-            <p>© 2024 福轩的学习小屋</p>
+            <p>福轩的学习小屋</p>
         </footer>
     </div>
 </template>
