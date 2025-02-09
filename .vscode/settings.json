@@ -8,6 +8,7 @@
         "*.cjson": "jsonc",
         "*.json": "jsonc",
         "xmemory": "c",
-        "xutility": "c"
+        "xutility": "c",
+        "iostream": "cpp"
     }
 }
