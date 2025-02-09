@@ -8,7 +8,8 @@ export default createContentLoader([
     '/编程学习/**/*.md',
     '/电路基础/**/*.md',
     '/深度学习/**/*.md',
-    '/线性代数/**/*.md'
+    '/线性代数/**/*.md',
+    '/算法学习/**/*.md'
 ], {
     includeSrc: false,
     render: false,
