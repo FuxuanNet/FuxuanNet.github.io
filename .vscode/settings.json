@@ -10,6 +10,9 @@
         "xmemory": "c",
         "xutility": "c",
         "iostream": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "algorithm": "c",
+        "limits": "c",
+        "utility": "c"
     }
 }
