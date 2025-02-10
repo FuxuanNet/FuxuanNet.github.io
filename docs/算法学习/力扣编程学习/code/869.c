@@ -10,19 +10,13 @@ bool isMonotonic(int *nums, int numsSize)
     {
         if (nums[i] - nums[i + 1] >= 0)
         {
-            // printf("big 0  %d\n", nums[i] - nums[i + 1]);
             res1 += 1;
-            // printf("res1: %d\n", res1);
         }
         if (nums[i] - nums[i + 1] <= 0)
         {
-            // printf("small 0  %d\n", nums[i] - nums[i + 1]);
             res2 += 1;
-            // printf("res2: %d\n", res2);
         }
     }
-    // printf("Final res1 and res2: %d and %d", res1, res2);
-
     if (res1 == numsSize - 1 || res2 == numsSize - 1)
     {
         return true;

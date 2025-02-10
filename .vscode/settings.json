@@ -9,6 +9,7 @@
         "*.json": "jsonc",
         "xmemory": "c",
         "xutility": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "stdio.h": "c"
     }
 }
