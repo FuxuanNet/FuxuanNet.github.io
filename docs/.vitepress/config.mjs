@@ -33,7 +33,6 @@ export default defineConfig({
       '/深度学习': set_sidebar('/深度学习/'),
       '/大学物理': set_sidebar('/大学物理/'),
       '/电路基础': set_sidebar('/电路基础/'),
-      '/数据结构' : set_sidebar('/数据结构/'),
       '/算法学习': set_sidebar('/算法学习/'),
       '/posts' : set_sidebar('/posts/'),
       '/': set_sidebar('/'),
