@@ -4,6 +4,9 @@ import { set_sidebar } from './gen_sidebar'
 export default defineConfig({
   title: "福轩的学习小屋",
   description: "我的知识库。",
+  head: [    // 传统浏览器图标 (favicon.ico)
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
+  ],
   base: '/',
   markdown: {
     math: true,
@@ -35,7 +38,7 @@ export default defineConfig({
       '/电路基础': set_sidebar('/电路基础/'),
       '/算法学习/力扣编程学习': set_sidebar('/算法学习/力扣编程学习/'),
       '/算法学习/数据结构': set_sidebar('/算法学习/数据结构/'),
-      '/posts' : set_sidebar('/posts/'),
+      '/posts': set_sidebar('/posts/'),
       '/': set_sidebar('/'),
     },
     socialLinks: [

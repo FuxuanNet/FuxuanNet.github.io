@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法学习/力扣编程学习/682棒球比赛.md",
+                "file": "posts/给宝金的微软三件套学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "682棒球比赛"
+              "title": "给宝金的微软三件套学习笔记"
             }
           }
         ]
@@ -170,12 +170,26 @@
   },
   "active": "7b5d2c2e118b99e5",
   "lastOpenFiles": [
+    "posts/index.md",
+    "posts/给宝金的微软三件套学习笔记.md",
+    "posts/images_bj/thrTable.png",
+    "posts/images_bj/Thr.png",
+    "posts/images_bj/TFormot.png",
+    "posts/images_bj/styleTemplate.png",
+    "posts/images_bj/ref.png",
+    "posts/images_bj/office.png",
+    "posts/images_bj/myThr.png",
+    "posts/images_bj/math.png",
+    "posts/images_bj/font.png",
+    "posts/images_bj/figureInWord.png",
+    "posts/images_bj",
+    "posts/KNN 算法实现手写英文大小写字母识别.md",
+    "posts/图片",
+    "posts/基于 KNN 算法实现手写英文大小写字母的识别.md",
+    "算法学习/力扣编程学习/682棒球比赛.md",
     "算法学习/力扣编程学习/66加一.md",
     "算法学习/力扣编程学习/58最后一个单词的长度.md",
     "算法学习/力扣编程学习/13罗马数字转整数.md",
-    "算法学习/力扣编程学习/code/image.png",
-    "posts/index.md",
-    "posts/KNN 算法实现手写英文大小写字母识别.md",
     "posts/大二上的简历.md",
     "线性代数/09基变换.md",
     "线性代数/06逆矩阵列空间与零空间附录之非方阵.md",
