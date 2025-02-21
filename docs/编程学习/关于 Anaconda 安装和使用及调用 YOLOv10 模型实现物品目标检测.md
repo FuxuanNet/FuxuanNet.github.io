@@ -41,17 +41,17 @@ safetensors==0.4.3
 
 因此，我们需要安装 Python 3.9 以及上面所提及的第三方库，版本一定要完全对应。
 
-但是，可能有一些人事先安装好了 Python，甚至装过上面的第三方库，可是<strong>版本</strong>与代码所需版本不匹配，甚至还会有<strong>冲突</strong>。为了避免因版本不一致导致的各种潜在环境，我们选择使用 <strong>Anaconda</strong> 来创建一个 python 3.9 的虚拟环境，并安装所需的第三方库。
+但是，可能有一些人事先安装好了 Python，甚至装过上面的第三方库，可是**版本**与代码所需版本不匹配，甚至还会有**冲突**。为了避免因版本不一致导致的各种潜在环境，我们选择使用 **Anaconda** 来创建一个 python 3.9 的虚拟环境，并安装所需的第三方库。
 
-## <strong>Anaconda 的下载、安装与虚拟环境的创建、激活</strong>
+## **Anaconda 的下载、安装与虚拟环境的创建、激活**
 
 建议：把之前安装的 python 卸载掉。
 
-### <strong>下载 Anaconda</strong>
+### **下载 Anaconda**
 
 这是国内清华大学提供的 Anaconda 镜像站，无需使用梯子，请关闭代理再进行下载。[Anaconda 64 位下载地址](https://mirror.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Windows-x86_64.exe)
 
-### <strong>安装 Anaconda</strong>
+### **安装 Anaconda**
 
 选择为所有用户安装，并选择自定义安装路径。
 
@@ -63,7 +63,7 @@ safetensors==0.4.3
 
 安装过程中，出现 Advanced options 选项:
 
-第一个选项是自动配置到系统的环境变量中，虽然它很方便，但如果我们后期想要对其进行<strong>卸载与重装</strong>，就会特别麻烦，所以我们先不选，一会二我们手动配置。
+第一个选项是自动配置到系统的环境变量中，虽然它很方便，但如果我们后期想要对其进行**卸载与重装**，就会特别麻烦，所以我们先不选，一会二我们手动配置。
 
 ![图片](static2/Enq9bT0OloPXC5x5LPucFfUKnxc.png)
 
@@ -73,7 +73,7 @@ safetensors==0.4.3
 
 ![图片](static2/N6d7b1LGRoBMHvx04nTcS0fnnPf.png)
 
-### <strong>配置环境变量</strong>
+### **配置环境变量**
 
 在配置之前，请一定要观看这个视频，了解一下什么是环境变量。
 
@@ -83,7 +83,7 @@ safetensors==0.4.3
 
 打开终端，输入 `conda --version`，如果出现版本号，说明环境变量配置成功。
 
-### <strong>创建与激活虚拟环境</strong>
+### **创建与激活虚拟环境**
 
 下载好之后，电脑里会有这个文件夹：
 
@@ -107,7 +107,7 @@ safetensors==0.4.3
 
 此时，我们就可以开始配置我们的代码运行环境了。
 
-如果上面有报错，可能是网络问题，请打开或关闭<strong>代理</strong>或<strong>换用其他镜像源</strong>试一试。
+如果上面有报错，可能是网络问题，请打开或关闭**代理**或**换用其他镜像源**试一试。
 
 ## YOLOv10 的安装与使用
 
@@ -121,7 +121,7 @@ safetensors==0.4.3
 
 还记得我们之前在黑框框上面激活的 `yolov10` 环境吗？现在，我们继续使用它。
 
-> <strong>终端命令行知识操作普及：</strong>
+> **终端命令行知识操作普及：**
 > 我们需要在这个黑框框中进入刚刚解压的 `yolov10` 文件夹，但是，我们的路径目前是在 `C:\Users\用户名`，路径默认是在 C 盘的，但如果我们的代码是在 D 盘，如果使用终端，又该怎么进入呢？
 > ![图片](static2/Moj1bzQIKovSd5xz2ZCc3Ofpnkg.png)
 > 这里我来亲自演示一下，我将把代码装到我的电脑里 D 盘的 `programming` 文件夹中的 `yolov10` 文件夹中，那么路径应该是 `D:\programming\yolov10` 。所以，我需要先进 入 D 盘，然后进入 `programming` 文件夹，最后 `yolov10` 文件夹。
@@ -130,7 +130,7 @@ safetensors==0.4.3
 
 ### 如何在 Anaconda Prompt 中进入 `D:\programming\yolov10`?
 
-1. 继续聚焦于我们的<strong> Anaconda Prompt 窗口</strong>，输入 `D:` ，然后回车，这样就可以进入 D 盘了。
+1. 继续聚焦于我们的**Anaconda Prompt 窗口**，输入 `D:` ，然后回车，这样就可以进入 D 盘了。
 
 ![图片](static2/RpEnb9NOFogyebxTRGocTK8mnTe.png)
 
@@ -144,26 +144,36 @@ safetensors==0.4.3
 > [!TIP]
 > 知识点：`cd` 是 `change directory` 的缩写，意思是改变目录，后面跟着的路径就是我们要进入的路 径。如果你的路径是 `D:\yolov10` ，那么就输入 `cd D:\yolov10` 。
 
-### <strong>下面就是配置环境了</strong>
+### **下面就是配置环境了**
 
-1. 输入 `pip install -r requirements.txt -i ``https://pypi.doubanio.com/simple` ，安装对应版本的 python 包。注意<strong>不要开梯子</strong>，因为这里我用的是镜像源。
+1. 输入 `pip install -r requirements.txt -i ``https://pypi.doubanio.com/simple` ，安装对应版本的 python 包。注意**不要开梯子**，因为这里我用的是镜像源。
 
 ![图片](static2/B99bbQmDHoAOd3xU80QcownJnOe.png)
 
 > [!TIP]
 > 知识点： `pip install` 是安装 python 自带的 `pip` 的命令， `-r` 是读取 `requirements.txt` 文件中的包名，`-i` 是指定镜像源，这里我们使用的是豆瓣源，因为豆瓣源的速度在国内不使用比较快，你也可以换成清华源，或直接打开代理，输入 `pip install -r requirements.txt`。
 
-如果遇到报错，请<strong>打开或关闭代理</strong>或<strong>换用其他镜像源</strong>试一试，如果都不可以，请谷歌搜索。
+如果遇到报错，请**打开或关闭代理**或**换用其他镜像源**试一试，如果都不可以，请谷歌搜索。
 
-1. 输入<strong> </strong><strong>pip install -e .</strong> 来安装源代码（注意末尾有<strong>点</strong>）。
+1. 输入**pip install -e .** 来安装源代码（注意末尾有**点**）。
 
-下面，代码的环境就配置好了，接下来，我们只要下载到<strong>别人训练好的模型</strong>，就可以运行代码了。
+下面，代码的环境就配置好了，接下来，我们只要下载到**别人训练好的模型**，就可以运行代码了。
 
 ## 下载模型
 
+::: danger
+官网下载模型的方式有变更，因此我提供了 YOLOv10-N 的下载链接，可以直接供大家下载：
+
+[YOLOv10-N 下载链接](https://fuxuannet.github.io/编程学习/static2/yolov10n.pt)
+
+> - 原版教程在下方 `details` 板块。
+:::
+
+::: details
 > 如下图所示，官网一共提供了 6 个模型，由于我们只是想演示一下，所以我们只下最小的 YOLOv10-N 就可以把代码跑起来了。
 > 如果你感兴趣的话，也可以下其他几个模型，下面的教程都是通用的，只要在代码中把 YOLOv10-N 的名字替换成其他的五个模型的名字就可以了。
 > ![图片](static2/EdwJbHFako9S4RxyM6WcKSJ5n72.png)
+:::
 
 1. 打开代理，下载 `YOLOv10-N`，把下载好的模型放到 `D:\programming\yolov10` 文件夹中，也就是 yolov10 文件夹的根目录。
 2. 在之前的 Anaconda Prompt 中输入 `code .` 就可以使用 VSCode 打开当前文件夹了。
