@@ -164,7 +164,7 @@ safetensors==0.4.3
 ::: danger
 官网下载模型的方式有变更，因此我提供了 YOLOv10-N 的下载链接，可以直接供大家下载：
 
-[YOLOv10-N 下载链接](https://fuxuannet.github.io/编程学习/static2/yolov10n.pt)
+[YOLOv10-N 下载链接](/yolov10n.pt)
 
 > - 原版教程在下方 `details` 板块。
 :::
