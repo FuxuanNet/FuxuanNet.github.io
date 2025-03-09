@@ -53,11 +53,11 @@ safetensors==0.4.3
 
 ### **安装 Anaconda**
 
-选择为所有用户安装，并选择自定义安装路径。
+选择 `Just Me` 安装，并选择自定义安装路径。
 
-![图片](static2/Q4MjbAthioihs7x6nTHcQpKRnzd.png)
+![图片](static2/image.png)
 
-安装路径请选择到系统的根目录，如 D 盘，如下图，这样方便我们进行环境变量的配置。
+安装路径最好请选择到系统的根目录，如 D 盘，如下图，这样方便我们进行环境变量的配置。
 
 ![图片](static2/W185bMGbcoauwfxoQhBcrtwWnzf.png)
 
@@ -77,9 +77,19 @@ safetensors==0.4.3
 
 在配置之前，请一定要观看这个视频，了解一下什么是环境变量。
 
+[『教程』什么是环境变量](https://www.bilibili.com/video/BV1w741147G9/?share_source=copy_web&vd_source=54b55542474b885b589dd23e8edb6b98)
+
 ![图片](static2/SPz2be0IGoSHZnx9Ustcpn5en8s.png)
 
 把这几条复制到系统环境变量里面（注意我的安装路径是 `D:\Anaconda` 这个目录，请根据自己实际安装目录进行改动，比如装在 C 盘根目录，就把所有 D 改成 C 就可以的）：
+
+```bash
+   D:\Anaconda
+   D:\Anaconda\Scripts
+   D:\Anaconda\Library\mingw-w64\bin
+   D:\Anaconda\Library\usr\bin
+   D:\Anaconda\Library\bin
+```
 
 打开终端，输入 `conda --version`，如果出现版本号，说明环境变量配置成功。
 
