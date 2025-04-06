@@ -2,3 +2,25 @@
 docs/.vitepress/dist
 docs/.vitepress/cache
 *.exe
+
+# 先忽略整个.obsidian目录
+.obsidian/**
+
+# 重新包含community-plugins.json
+!.obsidian/community-plugins.json
+
+# 重新包含plugins目录（需要先保留目录本身）
+!.obsidian/plugins/
+# 重新包含plugins目录下的所有插件文件夹
+!.obsidian/plugins/*/
+# 重新包含所有插件文件夹中的内容
+!.obsidian/plugins/*/**
+# 最后排除特定插件的data.json
+.obsidian/plugins/obsidian-git/data.json
+
+# 重新包含themes目录（需要先保留目录本身）
+!.obsidian/themes/
+# 重新包含themes目录下的所有主题文件夹
+!.obsidian/themes/*/
+# 重新包含所有主题文件夹中的内容
+!.obsidian/themes/*/**

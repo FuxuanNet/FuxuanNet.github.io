@@ -14,5 +14,8 @@
         "algorithm": "c",
         "limits": "c",
         "utility": "c"
+    },
+    "files.exclude": {
+        "**/.git": false
     }
 }
