@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/电路基础/电路笔记.md",
+                "file": "docs/深度学习/08线性回归.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "电路笔记"
+              "title": "08线性回归"
             }
           }
         ]
@@ -161,5 +161,8 @@
     }
   },
   "active": "80640ef1f93b479d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/电路基础/电路笔记.md",
+    "docs/深度学习/08线性回归.md"
+  ]
 }
