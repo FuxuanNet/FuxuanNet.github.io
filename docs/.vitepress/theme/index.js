@@ -17,6 +17,7 @@ import DeepMenu from './components/DeepMenu.vue';
 import MatrixMenu from './components/MatrixMenu.vue';
 import LearningPathSteps from './components/LearningPathSteps.vue';
 import LeetCodeMenu from './components/LeetCodeMenu.vue';
+import CADMenu from './components/CADMenu.vue';
 
 import './style.css'
 
@@ -46,6 +47,7 @@ export default {
     app.component('LeetCodeMenu', LeetCodeMenu)
     app.component('MatrixMenu', MatrixMenu)
     app.component('CustomMeta', CustomMeta)
+    app.component('CADMenu', CADMenu)
     app.component('LearningPathSteps', LearningPathSteps)
 
     app.use(ElementPlus);
