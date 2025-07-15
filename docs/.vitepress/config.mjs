@@ -32,6 +32,7 @@ export default defineConfig({
     ],
     sidebar: { // 侧边栏专栏
       '/编程学习': set_sidebar('/编程学习/'),
+      '/实习笔记': set_sidebar('/实习笔记/'),
       '/线性代数': set_sidebar('/线性代数/'),
       '/深度学习': set_sidebar('/深度学习/'),
       '/大学物理': set_sidebar('/大学物理/'),

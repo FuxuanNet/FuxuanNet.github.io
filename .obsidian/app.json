@@ -11,5 +11,6 @@
   "newFileLocation": "current",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./image",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
