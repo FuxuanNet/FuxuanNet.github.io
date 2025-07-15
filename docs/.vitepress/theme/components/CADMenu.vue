@@ -1,5 +1,5 @@
 <script setup>
-import { data as pages } from "../utils/matrix.data.mjs";
+import { data as pages } from "../utils/cad.data.mjs";
 
 const formatDate = (dateString) => {
     if (!dateString) return '';
