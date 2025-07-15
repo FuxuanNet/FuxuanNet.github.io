@@ -9,7 +9,8 @@ export default createContentLoader([
     '/电路基础/**/*.md',
     '/深度学习/**/*.md',
     '/线性代数/**/*.md',
-    '/算法学习/**/*.md'
+    '/算法学习/**/*.md',
+    '/实习笔记/**/*.md',
 ], {
     includeSrc: false,
     render: false,
