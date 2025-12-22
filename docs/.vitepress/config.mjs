@@ -39,6 +39,7 @@ export default defineConfig({
       '/电路基础': set_sidebar('/电路基础/'),
       '/算法学习/力扣编程学习': set_sidebar('/算法学习/力扣编程学习/'),
       '/算法学习/数据结构': set_sidebar('/算法学习/数据结构/'),
+      '/操作系统': set_sidebar('/操作系统/'),
       '/posts': set_sidebar('/posts/'),
       '/': set_sidebar('/'),
     },

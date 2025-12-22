@@ -11,6 +11,7 @@ export default createContentLoader([
     '/线性代数/**/*.md',
     '/算法学习/**/*.md',
     '/实习笔记/**/*.md',
+    '/操作系统/**/*.md',
 ], {
     includeSrc: false,
     render: false,
