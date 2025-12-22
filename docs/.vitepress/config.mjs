@@ -26,6 +26,7 @@ export default defineConfig({
     nav: [ // 导航栏
       { text: '回到首页', link: '/' },
       { text: '编程学习', link: '/编程学习/' },
+      { text: '操作系统', link: '/操作系统/' },
       { text: '线性代数', link: '/线性代数/' },
       { text: '深度学习', link: '/深度学习/' },
       { text: '大学物理', link: '/大学物理/' },
