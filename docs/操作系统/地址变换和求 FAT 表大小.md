@@ -6,6 +6,8 @@ details: 还没有完全写完
 
 # 地址变换大题
 
+![](image/Pasted%20image%2020251223211012.png)
+
 ## 十进制
 
 - 页号 = $INT\left[\frac{\text{逻辑地址}}{\text{页面长度}}\right]$
